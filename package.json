@@ -1,0 +1,32 @@
+{
+  "name": "cicd-pipeline",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline using GitHub Actions, builds a Docker image, runs tests, pushes to Docker Hub and deploys automatically on every push to main",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  "start": "node src/server.js",
+  "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammedkhaiserulla-web/cicd-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mohammedkhaiserulla-web/cicd-pipeline/issues"
+  },
+  "homepage": "https://github.com/mohammedkhaiserulla-web/cicd-pipeline#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
